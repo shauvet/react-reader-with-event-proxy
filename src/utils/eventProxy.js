@@ -1,4 +1,3 @@
-'use strict';
 const eventProxy = {
   onObj: {},
   oneObj: {},
@@ -22,7 +21,7 @@ const eventProxy = {
   },
   trigger: function() {
     let key, args;
-    if(arguments.length == 0) {
+    if(arguments.length === 0) {
       return false;
     }
     key = arguments[0];
